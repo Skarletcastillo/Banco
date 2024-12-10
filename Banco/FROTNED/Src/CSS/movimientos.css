@@ -1,0 +1,225 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comfortaa", sans-serif;
+    scrollbar-color: #9B7EBD #F0F0F0; /* Color del scroll y fondo */
+}
+
+/* Barra de navegación */
+.barra {
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: #9B7EBD;
+}
+
+.ico {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.ico2 {
+    width: 25px;
+}
+
+.conten_izq {
+    color: aliceblue;
+    font-size: 27px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.conten_derecha {
+    margin-right: 40px;
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
+
+/* Cuerpo Carta */
+.Contenedor_principal {
+    height: 88vh;
+    background: url(/FROTNED/Src/img/backgrop3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    width: 450px;
+    background-color: #9B7EBD;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 550px;
+}
+
+.sesion_pie {
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.sesion_cabeza {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.btn_opciones {
+    justify-content: center;
+}
+
+.contenedor_from {
+   
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    input, select {
+        border-radius: 7px;
+        width: 260px;
+        padding: 10px;
+        padding-left: 8px;
+        border: none;
+        outline: none;
+        font-size: 12px;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    textarea {
+        resize: none;
+        padding: 10px;
+        border-radius: 7px;
+        width: 260px;
+        height: 20px;
+    }
+}
+
+.btn {
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 11px;
+    padding: 12px;
+    width: 119px;
+    background: #fff;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #FFCBCB;
+}
+
+.a {
+    gap: 10px;
+    color: white;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+}
+
+.footer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Tabla de Movimientos */
+.tabla_movimientos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.tabla_movimientos td {
+    border: 1px solid #FFFFFF;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla_movimientos th {
+    background-color: #9B7EBD;
+    color: #9B7EBD;
+}
+
+.tabla_movimientos td {
+    background-color: #9B7EBD;
+    color: #FFFFFF;
+}
+
+/* pie de página */
+.barra_pie {
+    gap: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9B7EBD;
+}
+
+.items_pie {
+    font-size: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+}
+
+
+
+#tabla-cuerpo {
+    display: block;
+    max-height: 422px;
+    overflow-y: scroll;
+    
+    
+}
+
+ .tabla_movimientos {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+/* .tabla_movimientos th, .tabla_movimientos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabla_movimientos th {
+    background-color: #f2f2f2;
+    text-align: left;
+}  */
+

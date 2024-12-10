@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/FROTNED/Src/CSS/movimientos.css">
+    <link rel="shortcut icon" href="/FROTNED/Src/img/logo.ico" type="image/x-icon">
+    <title>Movimientos</title>
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header class="barra">
+        <div class="conten_izq">
+            <a href="/FROTNED/HTML/tipoCuenta.html"><img class="ico" src="/FROTNED/Src/img/logo.ico"
+                    alt="Icono PigSaves"></a>
+            <p>PigSaves</p>
+        </div>
+        <div class="conten_derecha">
+            <img class="ico" src="/FROTNED/Src/img/perfil.ico" alt="Icono foto de perfil">
+            <img class="ico2" src="/FROTNED/Src/img/tresRayas.png" alt="Icono de tres rayas">
+        </div>
+    </header>
+    <!-- Cuerpo -->
+    <div class="Contenedor_principal">
+        <div class="container">
+            <div class="sesion_cabeza">
+                <h3>Movimientos</h3>
+            </div>
+            <div class="contenedor_from">
+                <table class="tabla_movimientos">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Tipo</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla-cuerpo">
+                        <!-- Movimientos se cargarán aquí -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="footer">
+                <a href="/FROTNED/HTML/tipoCuenta.html" class="a"><img src="/FROTNED/Src/img/volverAtras.png"
+                        alt="icono volver atrás"> Volver atrás</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="barra_pie">
+        <div class="items_pie">
+            <img src="/FROTNED/Src/img/logo_wasa.png" alt="wasa" class="ico">
+            <img src="/FROTNED/Src/img/logo_llamada.png" alt="línea telefónica" class="ico">
+        </div>
+        <div class="contacto">
+            <p>Contáctanos</p>
+            <p>Página creada por Skarlet®</p>
+        </div>
+    </footer>
+    <script type="module" src="/backend/Js/ClsCuenta.js"></script>
+</body>
+
+</html>
